@@ -1,0 +1,16 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "ganache-cli -g 1 --gasLimit 1000000000",
+	"migrate": "truffle migrate --reset"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "truffle": "^5.0.17"
+  }
+}
